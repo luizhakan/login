@@ -62,6 +62,9 @@ const handleSubmit = async (event: Event) => {
         usernameOrEmail: usernameOrEmail.value,
         password: password.value
       })
+
+      // reload
+      location.reload()
     }, 5000)
   }
 }
