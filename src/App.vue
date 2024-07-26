@@ -213,6 +213,7 @@ const togglePasswordVisibility = () => {
 .login-button {
   background-color: #f97316;
   border: 5px solid #323232;
+  border-color: #323232 !important;
   border-radius: 50%;
   padding: 0.75rem;
   display: flex;
